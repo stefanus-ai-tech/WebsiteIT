@@ -20,7 +20,7 @@ export const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="hero" size="lg" asChild>
-            <a href="#contact">Get in Touch</a>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">Get in Touch</a>
           </Button>
           <Button variant="heroOutline" size="lg" asChild>
             <a href="#projects">Explore My Work</a>

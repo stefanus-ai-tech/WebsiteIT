@@ -30,11 +30,15 @@ export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
           ))}
         </div>
         <div className="flex gap-2">
-          <Button variant="default" size="sm" className="flex-1">
-            Live Demo
+          <Button variant="default" size="sm" className="flex-1" asChild>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
           </Button>
-          <Button variant="outline" size="sm" className="flex-1">
-            Source Code
+          <Button variant="outline" size="sm" className="flex-1" asChild>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              Source Code
+            </a>
           </Button>
         </div>
       </CardContent>
