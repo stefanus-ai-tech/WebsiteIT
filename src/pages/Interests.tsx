@@ -51,7 +51,7 @@ const Interests = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-20 px-40 overflow-hidden">
+      <section className="relative pt-24 pb-20 px-4 sm:px-8 md:px-16 lg:px-20 overflow-hidden">
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -74,7 +74,7 @@ const Interests = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="py-12 px-40 bg-background/50">
+      <section className="py-12 px-4 sm:px-8 md:px-16 lg:px-20 bg-background/50">
         <div className="container mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
             {filters.map((filter) => (
@@ -91,7 +91,7 @@ const Interests = () => {
       </section>
 
       {/* Content Section */}
-      <section className="py-16 px-40">
+      <section className="py-16 px-4 sm:px-8 md:px-16 lg:px-20">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">

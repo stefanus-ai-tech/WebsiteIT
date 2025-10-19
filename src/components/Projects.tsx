@@ -53,7 +53,7 @@ export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
 
   return (
-    <section id="projects" className="py-20 px-40">
+    <section id="projects" className="py-20 px-4 sm:px-8 md:px-16 lg:px-20">
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-3 justify-center mb-12">
           {filters.map((filter) => (
@@ -67,7 +67,7 @@ export const Projects = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-14">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
