@@ -5,6 +5,8 @@
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
+@import url("https://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.cdnfonts.com/css/shanti");
 
 @layer base {
   :root {
@@ -99,7 +101,8 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html,
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
 }
