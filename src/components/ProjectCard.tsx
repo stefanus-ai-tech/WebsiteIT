@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { ExternalLink, Github } from 'lucide-react';
 import neuralNetwork from '@/assets/neural-network.png';
 
 interface ProjectCardProps {
@@ -44,7 +45,9 @@ export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
             <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2">
+              <ExternalLink size={16} />
               Live Demo
             </a>
           </Button>
@@ -52,7 +55,9 @@ export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
             <a
               href="https://github.com"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2">
+              <Github size={16} />
               Source Code
             </a>
           </Button>
