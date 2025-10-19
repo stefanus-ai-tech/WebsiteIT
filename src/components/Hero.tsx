@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="relative flex items-start justify-center min-h-[80vh] pt-48">
         <div className="text-center px-6 sm:p-0 max-w-0xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 whitespace-nowrap">
-            <span className="text-primary inline">Embedded System</span>{' '}
+            <span className="font-sansation text-primary inline">Embedded System</span>{' '}
             <span className="text-foreground inline">Developer</span>
           </h1>
 
