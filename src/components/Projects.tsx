@@ -67,7 +67,7 @@ export const Projects = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
