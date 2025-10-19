@@ -37,7 +37,7 @@ export const Hero = () => {
 
       {/* === HeroWave Container === */}
       <div
-        className="h-[70vh] bg-cover bg-[center_top_px] opacity-70"
+        className="h-[50vh] sm:h-[70vh] bg-cover bg-[center_top_px] opacity-70"
         style={{ backgroundImage: `url(${heroWave})` }}
       />
     </section>
