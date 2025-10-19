@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col overflow-hidden">
       {/* === Text Container === */}
-      <div className="relative flex items-start justify-center min-h-[80vh] pt-32 md:pt-48">
+      <div className="relative flex items-start justify-center min-h-[65vh] pt-24 md:pt-40">
         <div className="text-center px-6 sm:p-0 max-w-6xl">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
             <span className="text-primary inline">Embedded System</span>{' '}
