@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
-import heroWave from '@/assets/hero-wave.png';
+import { Button } from "@/components/ui/button";
+import heroWave from "@/assets/hero-wave.png";
 
 export const Hero = () => {
   return (
@@ -8,11 +8,13 @@ export const Hero = () => {
       <div className="relative flex items-start justify-center min-h-[65vh] pt-24 md:pt-40">
         <div className="text-center px-6 sm:p-0 max-w-6xl">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
-            <span className="text-primary inline">Embedded System</span>{' '}
-            <span className="text-foreground inline">Developer</span>
+            <span className="text-primary inline">Embedded System</span>{" "}
+            <span className="text-foreground inline font-shanti">
+              Developer
+            </span>
           </h1>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-shanti mb-8">
             Your Vision, Actualized
           </p>
 
@@ -21,7 +23,8 @@ export const Hero = () => {
               <a
                 href="https://wa.me/1234567890"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Get in Touch
               </a>
             </Button>
