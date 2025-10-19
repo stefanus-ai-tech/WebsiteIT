@@ -90,9 +90,11 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      fontFamily: {
-        sansation: ['"Sansation"', "sans-serif"],
-        shanti: ['"Shanti"', "sans-serif"],
+      extend: {
+        fontFamily: {
+          sans: ['"Sansation"', "sans-serif"], // 👈 This becomes the main default
+          shanti: ['"Shanti"', "sans-serif"], // 👈 Use this only where needed
+        },
       },
     },
   },
