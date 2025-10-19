@@ -1,14 +1,14 @@
-import { Button } from "@/components/ui/button";
-import heroWave from "@/assets/hero-wave.png";
+import { Button } from '@/components/ui/button';
+import heroWave from '@/assets/hero-wave.png';
 
 export const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col overflow-hidden">
       {/* === Text Container === */}
-      <div className="relative flex items-start justify-center min-h-[65vh] pt-24 md:pt-40">
+      <div className="relative flex items-start justify-center min-h-[50vh] pt-24 md:pt-40">
         <div className="text-center px-6 sm:p-0 max-w-6xl">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
-            <span className="text-primary inline">Embedded System</span>{" "}
+            <span className="text-primary inline">Embedded System</span>{' '}
             <span className="text-foreground inline font-shanti">
               Developer
             </span>
@@ -23,8 +23,7 @@ export const Hero = () => {
               <a
                 href="https://wa.me/1234567890"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Get in Touch
               </a>
             </Button>
@@ -37,7 +36,7 @@ export const Hero = () => {
 
       {/* === HeroWave Container === */}
       <div
-        className="h-[70vh] bg-cover bg-[center_top_0%] opacity-70"
+        className="h-[70vh] bg-cover bg-[center_top_px] opacity-70"
         style={{ backgroundImage: `url(${heroWave})` }}
       />
     </section>
