@@ -1,14 +1,14 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { ExternalLink, Github } from 'lucide-react';
-import neuralNetwork from '@/assets/neural-network.png';
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Github } from "lucide-react";
+import neuralNetwork from "@/assets/neural-network.png";
 
 interface ProjectCardProps {
   title: string;
@@ -19,7 +19,7 @@ interface ProjectCardProps {
 export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
   return (
     <Card className="overflow-hidden hover:border-primary transition-colors group">
-      <div className="relative h-72 bg-muted overflow-hidden">
+      <div className="relative h-80 bg-muted overflow-hidden">
         <img
           src={neuralNetwork}
           alt={title}
@@ -46,7 +46,8 @@ export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2">
+              className="flex items-center justify-center gap-2"
+            >
               <ExternalLink size={16} />
               Live Demo
             </a>
@@ -56,7 +57,8 @@ export const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2">
+              className="flex items-center justify-center gap-2"
+            >
               <Github size={16} />
               Source Code
             </a>
